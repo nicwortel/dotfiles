@@ -1,0 +1,8 @@
+[user]
+	name = Nic Wortel
+	email = nic@nicwortel.nl
+	signingkey = 961355634756F28C
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
