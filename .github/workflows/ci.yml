@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check bash syntax
+        run: bash -n bash/.bashrc
+
+      # .profile is sourced by dash on login, so it has to parse as POSIX sh
+      - name: Check .profile stays POSIX
+        run: dash -n bash/.profile
+
+      - name: Validate git config
+        run: git config --file git/.config/git/config --list
+
+      - name: Validate gpg-agent.conf
+        run: gpg-agent --options gnupg/.gnupg/gpg-agent.conf --gpgconf-test
