@@ -1,0 +1,34 @@
+# CLI tools, installed with `mise install`. mise itself comes from the
+# provisioning playbook. Bare names resolve through mise's registry, mostly to
+# aqua packages; the prefixed ones are not in any registry.
+
+[tools]
+
+# Kubernetes
+kubectl = "1.36"
+flux2 = "latest"
+helm = "4"
+k9s = "latest"
+kube-linter = "latest"
+kubeconform = "latest"
+kubeseal = "latest"
+nova = "latest"
+opa = "latest"
+"github:home-operations/flate" = "latest"
+
+# GitHub
+github-cli = "latest"
+actionlint = "latest"
+zizmor = "latest"
+
+# Security scanning
+semgrep = "latest"
+snyk = "latest"
+trufflehog = "latest"
+
+# Cloud
+doctl = "1"
+terraform = "latest"
+
+# Other
+k6 = "latest"

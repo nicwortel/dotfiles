@@ -30,6 +30,10 @@ PATH="$HOME/.npm/bin:$PATH"
 
 PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
+# shims rather than `mise activate`, so that GUI applications and scripts which
+# never source a shell rc file find the tools too
+PATH="$HOME/.local/share/mise/shims:$PATH"
+
 # enable gpg-agent as the ssh-agent
 # see https://www.gnupg.org/faq/whats-new-in-2.1.html#autostart
 # and https://unix.stackexchange.com/questions/373831/cant-use-openpgp-key-exported-from-gnupg-with-ssh#373963

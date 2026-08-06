@@ -10,6 +10,7 @@ sudo apt install stow
 git clone git@github.com:nicwortel/dotfiles.git ~/projects/dotfiles
 cd ~/projects/dotfiles
 stow --adopt */ && git restore .
+mise install
 ```
 
 `*/` matches every package directory. Install a subset by naming them instead,
@@ -24,6 +25,8 @@ Commit or stash any changes first before running `stow --adopt`.
 
 Log out and back in afterwards for the `PATH` additions in `.profile`.
 Sourcing it (`source ~/.profile`) only affects the current shell.
+
+`mise install` assumes [mise](https://mise.jdx.dev/) is installed.
 
 ## Notes
 
