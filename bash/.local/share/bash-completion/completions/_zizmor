@@ -1,0 +1,2 @@
+# Loads the completion the command emits itself, so it cannot go stale.
+eval -- "$("$1" --completions bash 2>/dev/null)"
