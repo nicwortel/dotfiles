@@ -21,6 +21,7 @@ kubeconform = "latest"
 kubeseal = "latest"
 nova = "latest"
 opa = "latest"
+"github:cloudnative-pg/cloudnative-pg" = "1"
 "github:home-operations/flate" = "latest"
 
 # GitHub
