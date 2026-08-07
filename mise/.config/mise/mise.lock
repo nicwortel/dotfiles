@@ -148,13 +148,13 @@ version = "1.172.0"
 backend = "pipx:semgrep"
 
 [[tools.snyk]]
-version = "1.1306.2"
+version = "1.1306.3"
 backend = "aqua:snyk/cli"
 
 [tools.snyk."platforms.linux-x64"]
-checksum = "sha256:948ecc90d929f203a707e8f94478b8b9b64a4bbfc5cfb60916ba830ac91cfcd8"
-url = "https://github.com/snyk/cli/releases/download/v1.1306.2/snyk-linux"
-url_api = "https://api.github.com/repos/snyk/cli/releases/assets/491609810"
+checksum = "sha256:a76435dab2cecf567d2be13c5dd5dc5db1bc5959adf0f185e5f9419574ceb6fa"
+url = "https://github.com/snyk/cli/releases/download/v1.1306.3/snyk-linux"
+url_api = "https://api.github.com/repos/snyk/cli/releases/assets/503922116"
 
 [[tools.terraform]]
 version = "1.15.8"
