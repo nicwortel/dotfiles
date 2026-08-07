@@ -26,8 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-PATH="$HOME/.npm/bin:$PATH"
-
 PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # shims rather than `mise activate`, so that GUI applications and scripts which
