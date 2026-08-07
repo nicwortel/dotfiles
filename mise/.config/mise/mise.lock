@@ -41,6 +41,15 @@ url = "https://github.com/cli/cli/releases/download/v2.97.0/gh_2.97.0_linux_amd6
 url_api = "https://api.github.com/repos/cli/cli/releases/assets/496108269"
 provenance = "github-attestations"
 
+[[tools."github:StackExchange/dnscontrol"]]
+version = "4.45.0"
+backend = "github:StackExchange/dnscontrol"
+
+[tools."github:StackExchange/dnscontrol"."platforms.linux-x64"]
+checksum = "sha256:bb8a12b5038ea900cfad70be5f1f4b787c82eb2db6542b8832d628ff401829d9"
+url = "https://github.com/DNSControl/dnscontrol/releases/download/v4.45.0/dnscontrol_4.45.0_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/DNSControl/dnscontrol/releases/assets/498126012"
+
 [[tools."github:home-operations/flate"]]
 version = "0.4.12"
 backend = "github:home-operations/flate"

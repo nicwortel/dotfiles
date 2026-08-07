@@ -36,6 +36,7 @@ trufflehog = "latest"
 # Cloud
 doctl = "1"
 terraform = "latest"
+"github:StackExchange/dnscontrol" = "latest"
 
 # Node
 node = "lts"
