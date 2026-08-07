@@ -40,3 +40,6 @@ markdownlint-cli2 = "latest"
 
 # Other
 k6 = "latest"
+
+# required for mise completion
+usage = "latest"
