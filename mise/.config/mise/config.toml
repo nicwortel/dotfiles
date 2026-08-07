@@ -8,6 +8,9 @@ node.corepack = true
 
 [tools]
 
+# PHP
+"github:symfony-cli/symfony-cli" = "5"
+
 # Kubernetes
 kubectl = "1.36"
 flux2 = "latest"
