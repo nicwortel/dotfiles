@@ -2,6 +2,10 @@
 # provisioning playbook. Bare names resolve through mise's registry, mostly to
 # aqua packages; the prefixed ones are not in any registry.
 
+[settings]
+# Installs yarn and pnpm shims alongside each node version.
+node.corepack = true
+
 [tools]
 
 # Kubernetes
