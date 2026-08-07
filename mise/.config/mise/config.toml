@@ -30,5 +30,9 @@ trufflehog = "latest"
 doctl = "1"
 terraform = "latest"
 
+# Node
+node = "lts"
+markdownlint-cli2 = "latest"
+
 # Other
 k6 = "latest"
