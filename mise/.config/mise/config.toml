@@ -5,6 +5,7 @@
 [settings]
 # Installs yarn and pnpm shims alongside each node version.
 node.corepack = true
+minimum_release_age = "7d"
 
 [tools]
 
