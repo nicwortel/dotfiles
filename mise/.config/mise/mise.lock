@@ -31,6 +31,15 @@ url_api = "https://api.github.com/repos/fluxcd/flux2/releases/assets/487338171"
 [tools.flux2."platforms.linux-x64".provenance.slsa]
 url = "https://github.com/fluxcd/flux2/releases/download/v2.9.3/provenance.intoto.jsonl"
 
+[[tools.fzf]]
+version = "0.74.3"
+backend = "aqua:junegunn/fzf"
+
+[tools.fzf."platforms.linux-x64"]
+checksum = "sha256:3501a595e4b5c40a6b047340a0e8f805c46fd4e61ef95ef8a136ba8c61cf6f22"
+url = "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/junegunn/fzf/releases/assets/517537066"
+
 [[tools.github-cli]]
 version = "2.97.0"
 backend = "aqua:cli/cli"
@@ -147,6 +156,15 @@ url_api = "https://api.github.com/repos/bitnami/sealed-secrets/releases/assets/4
 version = "0.23.2"
 backend = "npm:markdownlint-cli2"
 
+[[tools.navi]]
+version = "2.24.0"
+backend = "aqua:denisidoro/navi"
+
+[tools.navi."platforms.linux-x64"]
+checksum = "blake3:de24e617c0d1f6b229a3e3051c140fb29377ece86c647216b8af97d84cdaf4dc"
+url = "https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/denisidoro/navi/releases/assets/224750154"
+
 [[tools.node]]
 version = "24.19.0"
 backend = "core:node"
@@ -194,6 +212,16 @@ backend = "aqua:hashicorp/terraform"
 [tools.terraform."platforms.linux-x64"]
 checksum = "sha256:d25ce7b6902013ad905db3d2eab0be4cd905887fe88b81a6171b8d5503c31f3d"
 url = "https://releases.hashicorp.com/terraform/1.15.8/terraform_1.15.8_linux_amd64.zip"
+
+[[tools.tlrc]]
+version = "1.13.1"
+backend = "aqua:tldr-pages/tlrc"
+
+[tools.tlrc."platforms.linux-x64"]
+checksum = "sha256:e63b80e180b956ae2114c39d7fb10e607ffaa46b6d8c370d90868389a228584d"
+url = "https://github.com/tldr-pages/tlrc/releases/download/v1.13.1/tlrc-v1.13.1-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/tldr-pages/tlrc/releases/assets/427272680"
+provenance = "github-attestations"
 
 [[tools.trufflehog]]
 version = "3.96.0"

@@ -1,0 +1,3 @@
+# tlrc ships its completion as a file instead of emitting it, so load the copy
+# that came with the installed version; it cannot go stale.
+. "$(dirname -- "$(mise which tldr 2>/dev/null)")/completions/tldr.bash"
