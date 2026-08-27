@@ -125,6 +125,15 @@ checksum = "sha256:c3752ad51a5a4015a113819c4eeb6e55a4d0e4b8e652494797532f6fc8161
 url = "https://github.com/derailed/k9s/releases/download/v0.51.0/k9s_Linux_amd64.tar.gz"
 url_api = "https://api.github.com/repos/derailed/k9s/releases/assets/440224321"
 
+[[tools.kind]]
+version = "0.32.0"
+backend = "aqua:kubernetes-sigs/kind"
+
+[tools.kind."platforms.linux-x64"]
+checksum = "sha256:50030de23cf40a18505f20426f6a8506bedf13c6e509244bd1fa9463721b0f54"
+url = "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-linux-amd64"
+url_api = "https://api.github.com/repos/kubernetes-sigs/kind/releases/assets/436442498"
+
 [[tools.kube-linter]]
 version = "0.8.3"
 backend = "aqua:stackrox/kube-linter"
