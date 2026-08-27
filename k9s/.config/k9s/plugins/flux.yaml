@@ -1,0 +1,37 @@
+# Inspired by https://github.com/derailed/k9s/blob/master/plugins/flux.yaml
+plugins:
+  reconcile:
+    shortCut: Shift-R
+    confirm: false
+    description: Reconcile
+    scopes:
+      - helmreleases
+      - kustomizations
+    command: bash
+    background: false
+    args:
+      - -c
+      - >-
+        api_resource=$(echo $RESOURCE_NAME | sed 's/.$//');
+        flux
+        --context $CONTEXT
+        -n $NAMESPACE
+        reconcile
+        $api_resource $NAME
+
+  reconcile-force:
+    shortCut: Shift-Z
+    confirm: false
+    description: Reconcile (force)
+    scopes:
+      - helmreleases
+    command: bash
+    background: false
+    args:
+      - -c
+      - >-
+        flux
+        --context $CONTEXT
+        -n $NAMESPACE
+        reconcile
+        helmrelease $NAME
