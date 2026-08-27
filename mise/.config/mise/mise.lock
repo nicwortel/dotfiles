@@ -81,6 +81,15 @@ checksum = "sha256:85e76d6a47f194efef89b1bf12ac108bfbce3e29fde893e8e76b977ab286c
 url = "https://github.com/home-operations/flate/releases/download/v0.4.12/flate_0.4.12_linux_amd64.tar.gz"
 url_api = "https://api.github.com/repos/home-operations/flate/releases/assets/483924707"
 
+[[tools."github:robusta-dev/krr"]]
+version = "1.29.0"
+backend = "github:robusta-dev/krr"
+
+[tools."github:robusta-dev/krr"."platforms.linux-x64"]
+checksum = "sha256:0affa7b4ded83a23c8f561fe429595c4ec94f1ea7dc06f145504ce99b453c859"
+url = "https://github.com/robusta-dev/krr/releases/download/v1.29.0/krr-ubuntu-latest-v1.29.0.zip"
+url_api = "https://api.github.com/repos/robusta-dev/krr/releases/assets/484379939"
+
 [[tools."github:symfony-cli/symfony-cli"]]
 version = "5.17.1"
 backend = "github:symfony-cli/symfony-cli"

@@ -29,6 +29,7 @@ nova = "latest"
 opa = "latest"
 "github:cloudnative-pg/cloudnative-pg" = "1"
 "github:home-operations/flate" = "latest"
+"github:robusta-dev/krr" = "latest"
 
 # GitHub
 github-cli = "latest"
