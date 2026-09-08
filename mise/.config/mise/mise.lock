@@ -11,25 +11,25 @@ url_api = "https://api.github.com/repos/rhysd/actionlint/releases/assets/3849248
 provenance = "github-attestations"
 
 [[tools.doctl]]
-version = "1.167.0"
+version = "1.168.0"
 backend = "aqua:digitalocean/doctl"
 
 [tools.doctl."platforms.linux-x64"]
-checksum = "sha256:8d7b39ad749698693458aa701c0c8d522035f923455a9bf0ee03a0b01601e51c"
-url = "https://github.com/digitalocean/doctl/releases/download/v1.167.0/doctl-1.167.0-linux-amd64.tar.gz"
-url_api = "https://api.github.com/repos/digitalocean/doctl/releases/assets/519054636"
+checksum = "sha256:ad817330e1a12fd60729f105d8c39af31ca845f221a60886a1b2215f74d9b35d"
+url = "https://github.com/digitalocean/doctl/releases/download/v1.168.0/doctl-1.168.0-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/digitalocean/doctl/releases/assets/538016513"
 
 [[tools.flux2]]
-version = "2.9.4"
+version = "2.9.5"
 backend = "aqua:fluxcd/flux2"
 
 [tools.flux2."platforms.linux-x64"]
-checksum = "sha256:c2c397a52930f52d2005c01d276116b059d062de379386d58e98115380a766a2"
-url = "https://github.com/fluxcd/flux2/releases/download/v2.9.4/flux_2.9.4_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/fluxcd/flux2/releases/assets/505259827"
+checksum = "sha256:b853df82adfd7736f580692f9f734473d571606307139f8fd20c2a80dd1ff473"
+url = "https://github.com/fluxcd/flux2/releases/download/v2.9.5/flux_2.9.5_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/fluxcd/flux2/releases/assets/538282891"
 
 [tools.flux2."platforms.linux-x64".provenance.slsa]
-url = "https://github.com/fluxcd/flux2/releases/download/v2.9.4/provenance.intoto.jsonl"
+url = "https://github.com/fluxcd/flux2/releases/download/v2.9.5/provenance.intoto.jsonl"
 
 [[tools.fzf]]
 version = "0.74.3"
@@ -41,23 +41,25 @@ url = "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linu
 url_api = "https://api.github.com/repos/junegunn/fzf/releases/assets/517537066"
 
 [[tools.github-cli]]
-version = "2.97.0"
+version = "2.98.0"
 backend = "aqua:cli/cli"
 
 [tools.github-cli."platforms.linux-x64"]
-checksum = "sha256:a2c9b8497e1f85b1ad0dfcb78b5a622e098801b8e461e459e88e1ee12f018112"
-url = "https://github.com/cli/cli/releases/download/v2.97.0/gh_2.97.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/cli/cli/releases/assets/496108269"
+checksum = "sha256:3b8ac6b30336802fc1a858d7c084e11cdf24ac1a761ca90b68022d7d729208de"
+url = "https://github.com/cli/cli/releases/download/v2.98.0/gh_2.98.0_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/cli/cli/releases/assets/522857901"
 provenance = "github-attestations"
 
 [[tools."github:StackExchange/dnscontrol"]]
-version = "4.46.0"
+version = "5.0.2"
 backend = "github:StackExchange/dnscontrol"
 
 [tools."github:StackExchange/dnscontrol"."platforms.linux-x64"]
-checksum = "sha256:5dc969acec7ae5867ee8a6b6e08827c2144eef6767a219cff612f84416ca58c1"
-url = "https://github.com/DNSControl/dnscontrol/releases/download/v4.46.0/dnscontrol_4.46.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/DNSControl/dnscontrol/releases/assets/506597132"
+checksum = "sha256:0344a65b75760f41fd9710f7350769eb47ac01166f699cf7f57563e8369b51f6"
+url = "https://github.com/DNSControl/dnscontrol/releases/download/v5.0.2/dnscontrol_5.0.2_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/DNSControl/dnscontrol/releases/assets/534315477"
+provenance = "github-attestations"
+provenance_verified = true
 
 [[tools."github:cloudnative-pg/cloudnative-pg"]]
 version = "1.30.0"
@@ -73,31 +75,33 @@ provenance_verified = true
 url = "https://github.com/cloudnative-pg/cloudnative-pg/releases/download/v1.30.0/multiple.intoto.jsonl"
 
 [[tools."github:home-operations/flate"]]
-version = "0.5.0"
+version = "0.6.2"
 backend = "github:home-operations/flate"
 
 [tools."github:home-operations/flate"."platforms.linux-x64"]
-checksum = "sha256:1dd5b7e8d2cf968386df7921abc74384f04d1b5b2b95dbee9bd54632bd6c311c"
-url = "https://github.com/home-operations/flate/releases/download/v0.5.0/flate_0.5.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/home-operations/flate/releases/assets/506470627"
+checksum = "sha256:26475a469ec781c1a4ef4fba715c162c9e480549802cd6639e155cfe0e39f04a"
+url = "https://github.com/home-operations/flate/releases/download/v0.6.2/flate_0.6.2_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/home-operations/flate/releases/assets/538096274"
 
 [[tools."github:robusta-dev/krr"]]
-version = "1.29.0"
+version = "1.30.0"
 backend = "github:robusta-dev/krr"
 
 [tools."github:robusta-dev/krr"."platforms.linux-x64"]
-checksum = "sha256:0affa7b4ded83a23c8f561fe429595c4ec94f1ea7dc06f145504ce99b453c859"
-url = "https://github.com/robusta-dev/krr/releases/download/v1.29.0/krr-ubuntu-latest-v1.29.0.zip"
-url_api = "https://api.github.com/repos/robusta-dev/krr/releases/assets/484379939"
+checksum = "sha256:440808a7c513bccbd03429eb3d24d51c6a2a066ed7b3fdcd6438fd7d8c521429"
+url = "https://github.com/robusta-dev/krr/releases/download/v1.30.0/krr-ubuntu-latest-v1.30.0.zip"
+url_api = "https://api.github.com/repos/robusta-dev/krr/releases/assets/527315410"
 
 [[tools."github:symfony-cli/symfony-cli"]]
-version = "5.17.1"
+version = "5.20.0"
 backend = "github:symfony-cli/symfony-cli"
 
 [tools."github:symfony-cli/symfony-cli"."platforms.linux-x64"]
-checksum = "sha256:526c26e029427a94f275f06298a12119ed95c7df037ca13b93f29405740d2f4e"
-url = "https://github.com/symfony-cli/symfony-cli/releases/download/v5.17.1/symfony-cli_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/symfony-cli/symfony-cli/releases/assets/390613659"
+checksum = "sha256:f50bfbbc1825a2f12a125ea4391f6f7c5b3d7e656901aeeeece0dd8bba135f36"
+url = "https://github.com/symfony-cli/symfony-cli/releases/download/v5.20.0/symfony-cli_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/symfony-cli/symfony-cli/releases/assets/535134293"
+provenance = "github-attestations"
+provenance_verified = true
 
 [[tools.helm]]
 version = "4.2.4"
@@ -126,13 +130,13 @@ url = "https://github.com/derailed/k9s/releases/download/v0.51.0/k9s_Linux_amd64
 url_api = "https://api.github.com/repos/derailed/k9s/releases/assets/440224321"
 
 [[tools.kind]]
-version = "0.32.0"
+version = "0.33.0"
 backend = "aqua:kubernetes-sigs/kind"
 
 [tools.kind."platforms.linux-x64"]
-checksum = "sha256:50030de23cf40a18505f20426f6a8506bedf13c6e509244bd1fa9463721b0f54"
-url = "https://github.com/kubernetes-sigs/kind/releases/download/v0.32.0/kind-linux-amd64"
-url_api = "https://api.github.com/repos/kubernetes-sigs/kind/releases/assets/436442498"
+checksum = "sha256:aee6151561422756b764a4ae28e7f44cda5af5a9eead3cc9985112b1de8d8e0d"
+url = "https://github.com/kubernetes-sigs/kind/releases/download/v0.33.0/kind-linux-amd64"
+url_api = "https://api.github.com/repos/kubernetes-sigs/kind/releases/assets/531396433"
 
 [[tools.kube-linter]]
 version = "0.8.3"
@@ -184,12 +188,12 @@ url = "https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0
 url_api = "https://api.github.com/repos/denisidoro/navi/releases/assets/224750154"
 
 [[tools.node]]
-version = "24.19.0"
+version = "24.20.0"
 backend = "core:node"
 
 [tools.node."platforms.linux-x64"]
-checksum = "sha256:f625d97cd707df4ff96254916fbc5ff014f09c09effe5a1e0ca8f6d41a8789d4"
-url = "https://nodejs.org/dist/v24.19.0/node-v24.19.0-linux-x64.tar.gz"
+checksum = "sha256:855d581f8a4eb1a8117e3426de25fe02770592febcfb31369aee1ffbfee9e8ec"
+url = "https://nodejs.org/dist/v24.20.0/node-v24.20.0-linux-x64.tar.gz"
 
 [[tools.nova]]
 version = "3.12.0"
@@ -202,34 +206,34 @@ url_api = "https://api.github.com/repos/FairwindsOps/nova/releases/assets/406886
 provenance = "cosign"
 
 [[tools.opa]]
-version = "1.19.1"
+version = "1.20.1"
 backend = "aqua:open-policy-agent/opa"
 
 [tools.opa."platforms.linux-x64"]
-checksum = "sha256:c9f985ce0d345f5484006ade2c695ed9e3f308e4441139e46695c5c182ac0839"
-url = "https://github.com/open-policy-agent/opa/releases/download/v1.19.1/opa_linux_amd64_static"
-url_api = "https://api.github.com/repos/open-policy-agent/opa/releases/assets/518113083"
+checksum = "sha256:0b3f152e61be276b70396cfbca49e39fc9d0c5089e0a8574e8f6a30f41a9187f"
+url = "https://github.com/open-policy-agent/opa/releases/download/v1.20.1/opa_linux_amd64_static"
+url_api = "https://api.github.com/repos/open-policy-agent/opa/releases/assets/533448913"
 
 [[tools.semgrep]]
-version = "1.173.0"
+version = "1.175.0"
 backend = "pipx:semgrep"
 
 [[tools.snyk]]
-version = "1.1306.4"
+version = "1.1307.0"
 backend = "aqua:snyk/cli"
 
 [tools.snyk."platforms.linux-x64"]
-checksum = "sha256:78a83f57a16cb660879cb29f75fcb4a6c1ba07791dceb41e2b840fb89741c95c"
-url = "https://github.com/snyk/cli/releases/download/v1.1306.4/snyk-linux"
-url_api = "https://api.github.com/repos/snyk/cli/releases/assets/513130050"
+checksum = "sha256:65fc01c378bd71f08cff214f7f8f91be907a27aa18b9649296cd8606adce245e"
+url = "https://github.com/snyk/cli/releases/download/v1.1307.0/snyk-linux"
+url_api = "https://api.github.com/repos/snyk/cli/releases/assets/530907594"
 
 [[tools.terraform]]
-version = "1.15.9"
+version = "1.16.0"
 backend = "aqua:hashicorp/terraform"
 
 [tools.terraform."platforms.linux-x64"]
-checksum = "sha256:76edd0b22d2f27d3d2e097cd793209646f719cf60f02ff3af626b07361137da1"
-url = "https://releases.hashicorp.com/terraform/1.15.9/terraform_1.15.9_linux_amd64.zip"
+checksum = "sha256:41d05b927aa174f15d1228c4eba832a323b716c68b415ef5a00179f46cc602d3"
+url = "https://releases.hashicorp.com/terraform/1.16.0/terraform_1.16.0_linux_amd64.zip"
 
 [[tools.tlrc]]
 version = "1.13.1"
@@ -242,13 +246,13 @@ url_api = "https://api.github.com/repos/tldr-pages/tlrc/releases/assets/42727268
 provenance = "github-attestations"
 
 [[tools.trufflehog]]
-version = "3.97.0"
+version = "3.97.1"
 backend = "aqua:trufflesecurity/trufflehog"
 
 [tools.trufflehog."platforms.linux-x64"]
-checksum = "sha256:62224de2f9dd7cd418800feb953760a302ed2f82a7c547fe1146a4874fb179e4"
-url = "https://github.com/trufflesecurity/trufflehog/releases/download/v3.97.0/trufflehog_3.97.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/trufflesecurity/trufflehog/releases/assets/514775383"
+checksum = "sha256:f863ea3a8d786f7d097870496c977944cce7372a2fe1e56707d965016e543ece"
+url = "https://github.com/trufflesecurity/trufflehog/releases/download/v3.97.1/trufflehog_3.97.1_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/trufflesecurity/trufflehog/releases/assets/527918235"
 
 [[tools.usage]]
 version = "5.1.0"
@@ -260,11 +264,11 @@ url = "https://github.com/jdx/usage/releases/download/v5.1.0/usage-x86_64-unknow
 url_api = "https://api.github.com/repos/jdx/usage/releases/assets/507608023"
 
 [[tools.zizmor]]
-version = "1.29.0"
+version = "1.30.0"
 backend = "aqua:zizmorcore/zizmor"
 
 [tools.zizmor."platforms.linux-x64"]
-checksum = "sha256:dd96df044a6e8538d5f423790f453bdd03d49e5b2bcc38214acc41a2f1297839"
-url = "https://github.com/zizmorcore/zizmor/releases/download/v1.29.0/zizmor-x86_64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/zizmorcore/zizmor/releases/assets/498263145"
+checksum = "sha256:ec8c95cd800845abb9bbc5f377ec7c57d2eb8e2386a00a201d3a74ee4092e5ed"
+url = "https://github.com/zizmorcore/zizmor/releases/download/v1.30.0/zizmor-x86_64-unknown-linux-gnu.tar.gz"
+url_api = "https://api.github.com/repos/zizmorcore/zizmor/releases/assets/537081732"
 provenance = "github-attestations"
