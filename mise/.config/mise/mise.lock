@@ -265,12 +265,12 @@ url_api = "https://api.github.com/repos/trufflesecurity/trufflehog/releases/asse
 
 [[tools.usage]]
 version = "6.12.1"
-backend = "aqua:jdx/usage"
+backend = "packslip:github.com/jdx/usage"
 
 [tools.usage."platforms.linux-x64"]
 checksum = "sha256:db25b616258fce61af2e07f1aa1c7ed33c7303a8a38abade121920b1dca86488"
 url = "https://github.com/jdx/usage/releases/download/v6.12.1/usage-x86_64-unknown-linux-gnu.tar.gz"
-url_api = "https://api.github.com/repos/jdx/usage/releases/assets/615145657"
+signer = "sigstore-oidc:https://github.com/jdx/usage/.github/workflows/publish-cli.yml"
 
 [[tools.zizmor]]
 version = "1.30.1"
