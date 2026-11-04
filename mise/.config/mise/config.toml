@@ -41,6 +41,7 @@ zizmor = "latest"
 opengrep = "latest"
 snyk = "latest"
 trufflehog = "latest"
+grype = "latest"
 
 # Cloud
 doctl = "1"
@@ -56,4 +57,3 @@ k6 = "latest"
 
 # required for mise completion
 usage = "latest"
-grype = "latest"
