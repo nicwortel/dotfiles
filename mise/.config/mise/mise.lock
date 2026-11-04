@@ -192,12 +192,12 @@ url = "https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0
 url_api = "https://api.github.com/repos/denisidoro/navi/releases/assets/224750154"
 
 [[tools.node]]
-version = "24.21.0"
+version = "26.13.0"
 backend = "core:node"
 
 [tools.node."platforms.linux-x64"]
-checksum = "sha256:6e1db87ef58b8819e5d5402eff1536491b18edd8eb7bee5ef7897876e88dc5ff"
-url = "https://nodejs.org/dist/v24.21.0/node-v24.21.0-linux-x64.tar.gz"
+checksum = "sha256:5848553868b402d3fabb5b09270649977780a390f832155721025a08b5104455"
+url = "https://nodejs.org/dist/v26.13.0/node-v26.13.0-linux-x64.tar.gz"
 
 [[tools.nova]]
 version = "3.12.1"
