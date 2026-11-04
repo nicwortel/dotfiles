@@ -28,6 +28,11 @@ Sourcing it (`source ~/.profile`) only affects the current shell.
 
 `mise install` assumes [mise](https://mise.jdx.dev/) is installed.
 
+## Managing tools with mise
+
+Add a tool with `mise use -g <tool>@latest` and update tools with
+`mise upgrade`, then commit `config.toml` and `mise.lock`.
+
 ## Notes
 
 `.stowrc` points the target at `$HOME`; without it Stow would install into the
