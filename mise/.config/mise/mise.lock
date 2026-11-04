@@ -98,6 +98,15 @@ url = "https://github.com/symfony-cli/symfony-cli/releases/download/v5.22.0/symf
 url_api = "https://api.github.com/repos/symfony-cli/symfony-cli/releases/assets/616646946"
 provenance = "github-attestations"
 
+[[tools.grype]]
+version = "0.120.1"
+backend = "aqua:anchore/grype"
+
+[tools.grype."platforms.linux-x64"]
+checksum = "sha256:0a9ee97ef5ae2ee953b0a80098105052e846cdbe319a57d808b519c33cd1343d"
+url = "https://github.com/anchore/grype/releases/download/v0.120.1/grype_0.120.1_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/anchore/grype/releases/assets/616618032"
+
 [[tools.helm]]
 version = "4.3.0"
 backend = "aqua:helm/helm"

@@ -56,3 +56,4 @@ k6 = "latest"
 
 # required for mise completion
 usage = "latest"
+grype = "latest"
