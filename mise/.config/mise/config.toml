@@ -52,6 +52,9 @@ terraform = "latest"
 node = "lts"
 markdownlint-cli2 = "latest"
 
+# AI
+"pipx:mistral-vibe" = "latest"
+
 # Other
 k6 = "latest"
 

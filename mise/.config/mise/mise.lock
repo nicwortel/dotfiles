@@ -227,6 +227,10 @@ checksum = "sha256:2545812755572e1355ea60f96288f82a26eebed7fc8b512430d49d5667214
 url = "https://github.com/opengrep/opengrep/releases/download/v1.33.0/opengrep_manylinux_x86"
 url_api = "https://api.github.com/repos/opengrep/opengrep/releases/assets/681599243"
 
+[[tools."pipx:mistral-vibe"]]
+version = "3.0.3"
+backend = "pipx:mistral-vibe"
+
 [[tools.snyk]]
 version = "1.1308.3"
 backend = "aqua:snyk/cli"
